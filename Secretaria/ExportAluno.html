@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="/sexta/css/print_dashboard.css">
+    <link rel="stylesheet" href="/sexta/css/jin.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <title>financeiro</title>
+  </head>
+  <body>
+   
+    <nav class="dp-menu">
+      <ul>
+        <li><a href="/sexta/index.html">Home</a></li>
+    
+        <li><a href="">Cadastro</a>
+          <ul>
+            <li><a href="/sexta/cadastro/cadastro_academico_aluno.html">Faltas-Notas</a></li>
+            <li><a href="/sexta/cadastro/cadastro_academico_escola.html">Cadastro Escola</a></li>
+            <li><a href="/sexta/cadastro/cadastro_aluno.html">Cadastro Aluno</a></li>
+            <li><a href="/sexta/cadastro/cadastro_mate.html">Cadastro Matéria</a></li>
+            <li><a href="/sexta/cadastro/cadastro_pais.html">Cadastro Pais</a></li>
+            <li><a href="/sexta/cadastro/cadastro_professores.html">Cadastro Professores</a></li>
+            <li><a href="/sexta/cadastro/CriarLogin.html">Criar Login</a></li>
+            <li><a href="/sexta/cadastro/esqueceu.html">Redefinir Senhas</a></li>
+            <li><a href="/sexta/cadastro/matriculas.html">Matrículas</a></li>
+          </ul>
+        </li>
+    
+        <li><a href="/index.html">Secretaria</a>
+          <ul>
+            <li><a href="/sexta/Secretaria/ExportAluno.html">Notas</a></li>         
+          </ul>
+        </li>
+    
+        <li><a href="">Financeiro</a>
+          <ul>
+            <li><a href="/sexta/financeiro/financeiro.html">Boletos</a></li>
+            <li><a href="/sexta/financeiro/materiais.html">Matériais</a></li>
+            <li><a href="/sexta/financeiro/pagamentos.html">Pagamentos</a></li>
+            <li><a href="/sexta/financeiro/rematricula.html">Rematricula</a></li>
+          </ul>
+        </li>
+    </nav>
+<center>
+    <h3>Informe a Matricula</h3>
+
+    <b>  <p>202201</p> </b>   <br>
+<button onclick="window.print()" class="no_print">Imprimir</button>
+
+
+    <div class="container">
+       <table class="bordered striped centered">
+            <thead>
+                <tr>
+                    <th>Matricula</th>
+                    <th>Materia</th>
+                    <th>Professor(A)</th>
+                    <th>Aluno</th>
+                    <th>Turma/Ano</th>
+                    <th>Nota</th>
+                    <th>Faltas/Total de Aulas</th>
+                    <th>Situação</th>
+                  
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>202201</td>
+                <td>Portugues</td>
+                <td>Aline Bastos</td>
+                <td>Gustavo Fries</td>
+                <td>6° ano</td>
+                <td>3.0</td>
+                <td>18 / 24</td>
+                <td class="red"><p>Reprovado</p></td>
+            
+              </tr>
+              <tr>
+                <td>202201</td>
+                <td>Matematica</td>
+                <td>     Guilherme Carlos</td>  
+                <td>Gustavo Fries</td>
+                <td>6° ano</td>
+                <td>7.0</td>
+                <td>4 / 24</td>
+                <td>Aprovado</td>
+       
+              </tr>
+              <tr>
+                <td>202201</td>
+                <td>Ed.Fisica</td>
+                <td>Esdras Lemuel</td>
+                <td>Gustavo Fries</td>
+                <td>6° ano</td>
+                <td>10.0</td>
+                <td>0 / 24</td>
+                <td>Aprovado</td>
+               
+              </tr>
+              <tr>
+                <td>202201</td>
+                <td>Geografia</td>
+                <td>Emilly Kutz</td>
+                <td>Gustavo Fries</td>
+                <td>6° ano</td>
+                <td>6.0</td>
+                <td>0 / 24</td>
+                <td>Aprovado</td>
+       
+              </tr>
+              <tr>
+                <td>202201</td>
+                <td>Sociologia</td>
+                <td>Gustavo Reis</td>
+                <td>Gustavo Fries</td>
+                <td>6° ano</td>
+                <td>8.5</td>
+                <td>8 / 24</td>
+                <td>Aprovado</td>
+            
+              </tr>
+            </tbody>
+        </table>
+    </div>
+</center>
+  </body>
+</html>
